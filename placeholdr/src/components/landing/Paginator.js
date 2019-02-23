@@ -11,12 +11,12 @@ class Paginator extends Component {
     };
     this.handlePageChange = this.handlePageChange.bind(this);
   }
- 
+
   handlePageChange(pageNumber) {
     console.log(`active page is ${pageNumber}`);
     this.setState({activePage: pageNumber});
   }
- 
+
   render() {
     return (
       <div>
@@ -32,5 +32,5 @@ class Paginator extends Component {
     );
   }
 }
- 
+
 export default Paginator;
